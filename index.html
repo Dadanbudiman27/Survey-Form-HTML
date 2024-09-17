@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  
+  
+  <body>
+    <h1 id="title"> SURVEI PENDUDUK WILAYAH RT/RW 01/01 </h1>
+    <p id="description"> Data di isi sesuai Kartu Tanda Penduduk </p>
+    <form id="survey-form"> 
+
+<fieldset>
+     <label id="name-label"> Nama sesuai KTP <input id="name" type="text" placeholder="name" required> </label>
+      
+    <label id="email-label"> Email/No HP <input id="email" type="email" placeholder="email/no hp" required> </label>
+      
+    <label id="number-label"> Umur <input id="number" type="number" min="0" max="200" placeholder="number" required> </label>
+</fieldset>
+
+    <select id="dropdown">
+      <option value=""> pilih pekerjaan anda </option>
+      <option value="1"> pegawai negeri </option>
+      <option value="2"> pegawai swasta </option>
+      <option value="3"> buruh </option>
+      <option value="4"> ibu rumah tangga </option>
+      <option value="5"> lainnya </option>
+    </select>
+
+    <input value="radio1" name="radioT" type="radio">
+    <input value="radio2" name="radioT" type="radio">
+    <input value="radio2" name="radioT" type="checkbox">
+    <input value="radio2" name="radioT" type="checkbox">
+
+    <textarea></textarea>
+    <input id="submit" type="submit">
+
+ </form> 
+
+  </body>
+</html>
